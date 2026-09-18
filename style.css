@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8FAFC;
+    letter-spacing:0.5px;
+    font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.profile .title{
+    display:flex;
+    justify-content:center;
+}
+.profile .footer{
+    display:flex;
+    justify-content:center;
+    font-size:25px;
+    margin-top: 17px;
+    margin-bottom:35px;
+}
+.content{
+    border:2px solid;
+    display:flex;
+    align-items: center;
+    gap:12px;
+    padding:10px;
+    padding-left:7px;
+    margin-right:7px;
+    margin-left:7px;
+    padding-bottom:50px;
+    border-radius:7px;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top:25px;
+    margin-left:10px;
+}
+.judul{
+    text-align:center;
+    padding-top:30px
+}
+.skills{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap:25px;
+    padding:0;
+    padding-top:30px;
+    margin-left:7px;
+    justify-content: center;
+}
+.skills li{
+    border:1px solid;
+    padding:6px 12px;
+    border-radius:4px;
+}
+.contact{
+    padding-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top:20px;
+    flex-wrap:wrap;
+}
+i{
+    border:1px solid;
+    padding: 6px 15px;
+    border-radius: 4px;
+}
+.icon a{
+    color:black;
+    font-size:1.8rem;
+    transition: transform 0.2s ease, color 0.2 ease;
+}
+.icon a:hover{
+    transform: translateY(-3px);
+    color:rgb(70, 69, 69);
+}
+div{
+    color:#0F172A;
+}
